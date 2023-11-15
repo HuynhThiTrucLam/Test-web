@@ -1,0 +1,106 @@
+.footer {
+  background-color: white;
+  padding: 20px 11.85vw;
+  height: fit-content;
+}
+.footer h3,
+.footer p,
+.footer a {
+  color: #666;
+  font-weight: 500;
+}
+.footer .fa-solid.fa-plus.footer-plus {
+  display: none;
+}
+.footer-wrap {
+  display: grid;
+  grid-template-columns: 16% 25% 25% 1fr;
+}
+.footer-infor {
+  padding: 0 5px;
+}
+.footer-infor a {
+  font-size: 13px;
+  font-weight: 500;
+}
+.footer-infor a:hover {
+  color: #d64646;
+}
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-top: 20px;
+}
+.footer-stores {
+  padding: 0 5px;
+}
+.footer-stores p {
+  margin: 20px 0;
+  font-size: 13px;
+  font-weight: 500;
+}
+.footer-stores a {
+  text-decoration: underline;
+  color: #8d6767;
+  font-size: 13px;
+  font-weight: 500;
+}
+.footer-contact {
+  padding: 0 5px;
+}
+.footer-contact p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.footer-map, .footer-hotline, .footer-email-wrap {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  font-weight: 500;
+}
+.footer-map p, .footer-hotline p, .footer-email-wrap p {
+  font-size: 13px;
+}
+.footer-hotline {
+  align-items: center;
+}
+.footer-hotline a,
+.footer-hotline i {
+  color: #d64646;
+}
+.footer-hightlight {
+  font-size: 13px;
+  font-weight: 700;
+}
+.footer-email p {
+  font-size: 14px;
+  font-weight: 700;
+}
+.footer-email p:hover {
+  color: #d64646;
+}
+.footer .gmail {
+  margin-left: 23px;
+  font-weight: 500;
+}
+.footer-about {
+  padding: 0 5px;
+}
+.footer-about h3 {
+  margin-bottom: 20px;
+}
+.footer-about p {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.footer-social i {
+  font-size: 40px;
+}

@@ -1,0 +1,19 @@
+mixin product( name, pricePrev, price,discount,src1,src2)
+    .product-wrap 
+        .product-img
+            a(href="./shopping.html") 
+                img(src=src1 alt="second sunday").product-img1
+                img(src=src2 alt="second sunday").product-img2
+            .product-discount
+                span= discount 
+        .product-info 
+            h5.product-name= name 
+            p.product-price
+                span.product-pricePre= pricePrev
+                    sup ₫
+                span.product-priceNow= price
+                    sup ₫
+
+
+
+

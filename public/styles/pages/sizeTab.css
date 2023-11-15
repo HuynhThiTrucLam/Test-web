@@ -1,0 +1,66 @@
+.sizeTab {
+  margin-top: 5px;
+  padding: 10px 11.85vw;
+  background-color: #f5f5f5;
+}
+.sizeTab h2 {
+  font-size: 20px;
+}
+.sizeTab p {
+  font-weight: 400;
+  font-size: 13px;
+}
+.sizeTab ul {
+  font-weight: 400;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.sizeTab li {
+  font-size: 12px;
+}
+.sizeTab-wrap {
+  margin: 0 auto;
+}
+.sizeTab-header {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.sizeTab-prepare {
+  color: #212529;
+  margin-bottom: 15px;
+}
+.sizeTab-prepare p {
+  margin: 15px 0;
+}
+.sizeTab-text {
+  display: block;
+  font-weight: 700;
+  font-size: 12px;
+  padding-bottom: 15px;
+  margin-left: -20px;
+}
+.sizeTab-list {
+  gap: 15px;
+}
+.sizeTab-step {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sizeTab-step:nth-child(3) img {
+  width: 350px;
+}
+.sizeTab-step:nth-child(4) img {
+  width: 600px;
+}
+.sizeTab-step img {
+  width: 550px;
+}
+.sizeTab-note p {
+  display: block;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 15px;
+}

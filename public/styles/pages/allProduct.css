@@ -1,0 +1,76 @@
+.allProduct {
+  padding: 3px 0;
+}
+.allProduct select {
+  width: 170px;
+  height: 40px;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  font-size: 13px;
+  color: #212529;
+}
+.allProduct option {
+  font-weight: normal;
+  display: block;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+  white-space: nowrap;
+  line-height: 3;
+}
+.allProduct-container {
+  background-color: #efefef;
+  padding: 10px 11%;
+}
+.allProduct-header {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.allProduct-header h3 {
+  color: #333;
+  font-size: 35px;
+  font-weight: 500;
+}
+.allProduct-shose {
+  width: 100%;
+  gap: 15px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.allProduct-choose {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.allProduct-choose p {
+  font-size: 13px;
+}
+.allProduct-pagination {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.allProduct-pagination nav {
+  text-align: center;
+}
+.allProduct-pagination a {
+  width: 42px;
+  color: #212529;
+  padding: 10px;
+}
+.allProduct-pagination a:hover {
+  color: #d64646;
+}
+.allProduct .allProduct-pagination ul.pagination.justify-content-center li.page-item {
+  margin-right: 10px;
+  border-radius: 10px;
+}

@@ -1,0 +1,45 @@
+.noti {
+  position: fixed;
+  top: 120px;
+  right: 30px;
+  z-index: 1000000;
+  width: 300px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  transform: translateY(calc(-100% - 120px));
+  transition: all linear 0.2s;
+  &-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-bottom: solid 1px #dedede;
+    p {
+      font-weight: 500;
+      color: #d61c1f;
+      font-size: 20px;
+    }
+    i {
+      color: #d61c1f;
+      font-size: 18px;
+    }
+  }
+  &-bottom {
+    margin: 10px;
+    p,
+    a {
+      font-size: 12px;
+      font-weight: 500;
+    }
+  }
+  &-link {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    a {
+      color: #d61c1f;
+    }
+  }
+}

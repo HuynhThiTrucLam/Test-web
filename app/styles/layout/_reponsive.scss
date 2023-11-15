@@ -1,0 +1,219 @@
+@media screen and (min-width: 990.98px) and (max-width: 1120px) {
+  .header {
+    &-left {
+      img {
+        width: 150px;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+    &-phone {
+      p {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 10px;
+      }
+    }
+    &-middle {
+      align-items: center;
+      img {
+        width: 130px;
+        display: block;
+        margin: 0 auto;
+      }
+      a {
+        font-size: 13px;
+      }
+    }
+  }
+  .footer {
+    h3 {
+      font-size: 15px;
+    }
+    &-infor {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .header {
+    &-top {
+      position: relative;
+      padding: 5px 10%;
+      background-color: white;
+      justify-content: center;
+      align-items: center;
+      img {
+        position: relative;
+        top: 0;
+        left: 20%;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+    &-left {
+      margin: 0 auto;
+      width: 200px;
+      justify-content: center;
+      i.fa-solid.fa-bars {
+        position: absolute;
+        right: 90%;
+        top: 10px;
+        display: block;
+        color: #212529;
+        font-size: 20px;
+      }
+      i.fa-solid.fa-magnifying-glass {
+        position: absolute;
+        right: 83%;
+        top: 10px;
+        display: block;
+        color: #212529;
+        font-size: 20px;
+      }
+    }
+    &-phone i {
+      // display: inline-block;
+      font-size: 20px;
+      position: absolute;
+      right: 20%;
+    }
+    &-middle,
+    &-menu,
+    &-email,
+    &-phone,
+    form {
+      display: none;
+    }
+    &-shopping {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      img {
+        position: relative;
+        width: 28px;
+      }
+      i {
+        display: block;
+        font-size: 22px;
+        color: #d64646;
+      }
+      &-wrap {
+        margin-top: 4.5px;
+      }
+    }
+  }
+  .footer {
+    padding: 10px 13%;
+    &-wrap {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+    }
+    &-about {
+      p {
+        line-height: 2;
+      }
+    }
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .product {
+    &-container {
+      padding: 10px 30px;
+    }
+    &-shose {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .footer {
+    padding: 10px 11.85vw;
+
+    &-wrap {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+    &-list,
+    &-stores p,
+    &-stores a,
+    &-map,
+    &-hotline,
+    &-email {
+      display: none;
+    }
+    .fa-solid.fa-plus.footer-plus {
+      display: block;
+      color: #666;
+    }
+    &-infor,
+    &-stores,
+    &-contact {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &-about {
+      h3 {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .stores {
+    h1 {
+      font-size: 30px;
+      font-weight: 400;
+    }
+    padding: 20px 11.85vw 10px 11.85vw;
+  }
+  .productList {
+    &-wrap {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    &-img:nth-child(3),
+    &-img:nth-child(4) {
+      display: none;
+    }
+  }
+  .productList {
+    padding: 10px 0;
+
+    &-button {
+      width: 100px;
+      p {
+        padding: 10px 5px;
+
+        font-size: 12px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 426px) {
+  .header {
+    &-left {
+      img {
+        width: 150px;
+      }
+    }
+    &-shopping {
+      align-items: center;
+      gap: 8px;
+      i {
+        font-size: 20px;
+      }
+      img {
+        width: 26px;
+      }
+      p {
+        font-size: 10px;
+        top: 0;
+        right: 0;
+        transform: translate(50%, -20%);
+      }
+    }
+  }
+}
+//Chưa làm cho slider nè

@@ -1,0 +1,39 @@
+.stores {
+  background-color: #f5f5f5;
+  padding: 20px 11.85vw;
+  font-size: 17px;
+  color: #666;
+}
+.stores iframe {
+  width: 100%;
+}
+.stores h1 {
+  font-weight: 400;
+  color: #212529;
+}
+.stores-line {
+  width: 100%;
+  height: 0.5px;
+  background-color: #333;
+  margin: 20px 0 30px 0;
+}
+.stores-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.stores-title {
+  font-size: 17px;
+  color: #333;
+  font-weight: 600;
+}
+.stores-address, .stores-CSKH, .stores-time {
+  display: flex;
+  flex-direction: row;
+}
+.stores-address i, .stores-CSKH i, .stores-time i {
+  margin-right: 8px;
+}
+.stores-map {
+  padding: 50px 11.85vw 20px 0;
+}

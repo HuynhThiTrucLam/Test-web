@@ -1,0 +1,98 @@
+include ../blocks/mixins
+block homePage
+    main    
+        section.slider 
+            .slider-wrap
+                .slider-icon-prev
+                    i.fa-solid.fa-chevron-left
+                .slider-list
+                    .slider-item
+                        img(src="../images/slider_1.webp" alt="second-sunday")
+                    .slider-item
+                        img(src="../images/slider_2.webp" alt="second-sunday")
+                    .slider-item
+                        img(src="../images/slider_3.webp" alt="second-sunday")
+                    .slider-item
+                        img(src="../images/slider_4.webp" alt="second-sunday")
+                .slider-icon-next
+                    i.fa-solid.fa-chevron-right
+        section.intro 
+            .intro-wraper
+                .intro-header
+                    h2 Such a simple thing
+                .intro-content 
+                    p Với thông điệp "Such a simple thing", Second Sunday dành trọn tâm huyết để làm ra các sản phẩm mang màu sắc của riêng mình, màu sắc của sự đơn giản, tinh tế, màu sắc của 1 ngày bình yên. Hãy trải nghiệm, cảm nhận và "enjoy your second sunday" cùng chúng tớ nhé !!!
+                .intro-line
+                .intro-video 
+                    .video 
+                        iframe(width="100%" height="446" src="https://www.youtube.com/embed/GBc9Zaj2gzM" title="Second Sunday | Second Sunday Chunky Big Lace" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share", allowfullscreen)
+        section.productList
+            .product-container 
+                .product-header 
+                    h3 Giày
+                .product-shose
+                    +product("Giày Second Sunday Capuchino 1.0 SK12","450.000","249.000","- 52%","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/1-jpeg-1698983431761.jpg?v=1698983459007", "https://bizweb.dktcdn.net/thumb/large/100/466/874/products/2-jpeg-1698983432534.jpg?v=1698983459007")
+                    +product("Giày Second Sunday Capuchino 1.0 SK12","450.000","249.000","- 46%","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/1-jpeg-1698983401413.jpg?v=1698983421990","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/2-jpeg-1698983401955.jpg?v=1698983421990")
+                    +product("Giày Second Sunday Capuchino 1.0 SK12","450.000","249.000","- 42%","https://bizweb.dktcdn.net/100/466/874/products/1-jpeg-1698983358781.jpg?v=1698983385093","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/2-jpeg-1698983359509.jpg?v=1698983385093")
+                    +product("Giày Second Sunday Capuchino 1.0 SK12","450.000","249.000","- 45%","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/1-jpeg-1698465474951.jpg?v=1698465512993","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/2-jpeg-1698465475585.jpg?v=1698465512993")
+                    +product("Giày Second Sunday Capuchino 1.0 SK12","450.000","249.000","- 40%","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/1-jpeg-1698429425224.jpg?v=1698429451007","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/2-jpeg-1698429426012.jpg?v=1698429451007")
+                    +product("Giày Second Sunday Capuchino 1.0 SK12","450.000","249.000","- 42%","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/1-jpeg-1698429376890.jpg?v=1698429415990","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/2-jpeg-1698429377631.jpg?v=1698429415990")
+                    +product("Giày Second Sunday Capuchino 1.0 SK12","450.000","249.000","- 45%","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/1-jpeg-1698465350388.jpg?v=1698465374103","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/2-jpeg-1698465351251.jpg?v=1698465374103")
+                    +product("Giày Second Sunday Capuchino 1.0 SK12","450.000","249.000","- 42%","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/1-jpeg-1698133982742.jpg?v=1698134021077","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/2-jpeg-1698133983269.jpg?v=1698134021077")
+                .product-button     
+                    a(href="/") VIEW ALL
+            .product-container 
+                .product-header 
+                    h3 Dép
+                .product-shose
+                    +product("Dép Second Sunday Longday Vecro Slides SL28","450.000","249.000","- 52%","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/anh-e9e82f6c-c148-41ed-be68-bbc56e6a06c5.jpg?v=1692177476767", "https://bizweb.dktcdn.net/thumb/large/100/466/874/products/2-1695033144516.jpg?v=1695033148877")
+                    +product("Giày Second Sunday Capuchino 1.0 SK12","450.000","249.000","- 46%","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/anh.jpg?v=1692177441053","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/2-1695033123326.jpg?v=1695033126683")
+                    +product("Giày Second Sunday Capuchino 1.0 SK12","450.000","249.000","- 42%","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/1-1695033053924.jpg?v=1695033097273","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/2-1695033054678.jpg?v=1695033097273")
+                    +product("Giày Second Sunday Capuchino 1.0 SK12","450.000","249.000","- 45%","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/sl08.jpg?v=1695632277750","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/2-1694767960916.jpg?v=1695632280310")
+                    +product("Giày Second Sunday Capuchino 1.0 SK12","450.000","249.000","- 40%","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/90chinh-mau-nen.jpg?v=1685359428680","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/91chinh-mau-nen.jpg?v=1685359436400")
+                    +product("Giày Second Sunday Capuchino 1.0 SK12","450.000","249.000","- 42%","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/sl11-be-31ec995e-c2f1-428e-8f5b-c6e5176cb530.jpg?v=1695632249557","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/dsc02770-large-jpeg-1695297619426.jpg?v=1695632252790")
+                    +product("Giày Second Sunday Capuchino 1.0 SK12","450.000","249.000","- 45%","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/40chinh-mau-nen.jpg?v=1685359792940","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/41chinh-mau-nen.jpg?v=1685359801660")
+                    +product("Giày Second Sunday Capuchino 1.0 SK12","450.000","249.000","- 42%","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/20chinh-mau-nen.jpg?v=1695021687297","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/22chinh-mau-nen.jpg?v=1695021687297")
+                .product-button     
+                    a(href="/") VIEW ALL
+            .product-container 
+                .product-header 
+                    h3 Phụ kiện
+                .product-shose
+                    +product("Dép Second Sunday Longday Vecro Slides SL28","450.000","249.000","- 52%","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/sa07.png?v=1698154548800", "https://bizweb.dktcdn.net/thumb/large/100/466/874/products/vn-11134207-7qukw-lhcw2ubmox823b-1685417509131.jpg?v=1698154550910")
+                    +product("Giày Second Sunday Capuchino 1.0 SK12","450.000","249.000","- 46%","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/sa06.png?v=1698154535863","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/vn-11134207-7qukw-lhd7x4f3z4fm3f-1685414878932.jpg?v=1698154537720")
+                    +product("Giày Second Sunday Capuchino 1.0 SK12","450.000","249.000","- 42%","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/sa08.png?v=1698154558520","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/vn-11134207-7qukw-lhcw2ubmavjm77-1685416487066.jpg?v=1698154560970")
+                    +product("Giày Second Sunday Capuchino 1.0 SK12","450.000","249.000","- 45%","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/st03.png?v=1698154803247","https://bizweb.dktcdn.net/thumb/large/100/466/874/products/st03-2.png?v=1698154814443")
+                .product-button     
+                    a(href="/") VIEW ALL
+            .line 
+            .productList-insta   
+                h3.productList-content Instagram 
+                .productList-wrap
+                    .productList-img 
+                        a(href="https://www.instagram.com/p/Cpmz4-irQV0/").product-page
+                            .productList-cover
+                                p 28/03/2023
+                            img(src="https://bizweb.dktcdn.net/100/466/874/articles/inssta2.png?v=1680574505900" alt="Second Sunday" frameborder="0")
+                    .productList-img 
+                        a(href="https://www.instagram.com/p/CpTzvUSpN68/").product-page
+                            .productList-cover
+                                p 28/03/2023
+                            img(src="https://bizweb.dktcdn.net/100/466/874/articles/insta12.png?v=1680574506933" alt="Second Sunday" frameborder="0")
+                    .productList-img 
+                        a(href="https://www.instagram.com/p/CpT0TIgJY82/").product-page
+                            .productList-cover
+                                p 28/03/2023
+                            img(src="https://bizweb.dktcdn.net/100/466/874/articles/ins1.png?v=1680574507797" alt="Second Sunday" frameborder="0")
+                    .productList-img 
+                        a(href="https://www.instagram.com/p/Cpy7nMGJnpC/").product-page
+                            .productList-cover
+                                p 28/03/2023
+                            img(src="https://bizweb.dktcdn.net/100/466/874/articles/ins10.png?v=1680574508633" alt="Second Sunday" frameborder="0")
+                .productList-button
+                    a(href="/")
+                        p Xem tất cả 
+
+
+
+

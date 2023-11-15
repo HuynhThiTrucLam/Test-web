@@ -1,0 +1,23 @@
+@import "base/font";
+@import "base/reset";
+@import "base/_structure";
+
+@import "components/header";
+
+@import "layout/_homepage";
+@import "layout/_product";
+
+@import "pages/policy";
+@import "pages/sizeTab";
+@import "pages/stores";
+// @import "pages/allProduct";
+
+@import "components/footer";
+
+@import "components/shopping";
+@import "components/sidebar";
+@import "components/noti";
+
+@import "layout/_reponsive";
+//Chưa làm cho slider nè
+//File reponsive luôn để cuối nhé

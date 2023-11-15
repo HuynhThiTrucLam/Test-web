@@ -1,0 +1,45 @@
+.noti {
+  position: fixed;
+  top: 120px;
+  right: 30px;
+  z-index: 1000000;
+  width: 300px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  transform: translateY(calc(-100% - 120px));
+  transition: all linear 0.2s;
+}
+.noti-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-bottom: solid 1px #dedede;
+}
+.noti-top p {
+  font-weight: 500;
+  color: #d61c1f;
+  font-size: 20px;
+}
+.noti-top i {
+  color: #d61c1f;
+  font-size: 18px;
+}
+.noti-bottom {
+  margin: 10px;
+}
+.noti-bottom p,
+.noti-bottom a {
+  font-size: 12px;
+  font-weight: 500;
+}
+.noti-link {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
+.noti-link a {
+  color: #d61c1f;
+}
