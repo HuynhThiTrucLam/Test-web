@@ -5,7 +5,7 @@
 @import "components/header";
 
 @import "layout/_homepage";
-@import "layout/_product";
+@import "block/_product";
 
 @import "pages/policy";
 @import "pages/sizeTab";
@@ -14,7 +14,8 @@
 
 @import "components/footer";
 
-@import "components/shopping";
+@import "layout/_buy";
+@import "layout/_shopping";
 @import "components/sidebar";
 @import "components/noti";
 
