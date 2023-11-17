@@ -119,6 +119,29 @@
       }
     }
   }
+  .intro {
+    padding: 20px;
+  }
+  .policys {
+    padding: 20px 35px;
+  }
+  .sizeTab {
+    &-step {
+      img {
+        width: 100%;
+      }
+      &:nth-child(3) {
+        img {
+          width: 100%;
+        }
+      }
+      &:nth-child(4) {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
 }
 @media screen and (max-width: 767.98px) {
   .product {

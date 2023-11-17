@@ -1659,6 +1659,21 @@ main {
   .footer-about p {
     line-height: 2;
   }
+  .intro {
+    padding: 20px;
+  }
+  .policys {
+    padding: 20px 35px;
+  }
+  .sizeTab-step img {
+    width: 100%;
+  }
+  .sizeTab-step:nth-child(3) img {
+    width: 100%;
+  }
+  .sizeTab-step:nth-child(4) img {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 767.98px) {
   .product-container {
