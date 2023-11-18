@@ -13,6 +13,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  overflow: hidden;
 }
 .shopping-left {
   width: 770px;
@@ -52,6 +53,9 @@
 .shopping-right {
   margin-top: 70px;
   width: calc(100% - 770px);
+}
+.shopping-right-slider {
+  display: none;
 }
 .shopping-right-header {
   font-size: 18px;

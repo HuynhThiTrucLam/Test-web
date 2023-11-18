@@ -52,9 +52,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.header {
-  margin-top: 80px;
-}
 .header-top {
   position: fixed;
   top: 0;
@@ -1122,6 +1119,7 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  overflow: hidden;
 }
 .shopping-left {
   width: 770px;
@@ -1161,6 +1159,9 @@ main {
 .shopping-right {
   margin-top: 70px;
   width: calc(100% - 770px);
+}
+.shopping-right-slider {
+  display: none;
 }
 .shopping-right-header {
   font-size: 18px;
@@ -1790,22 +1791,6 @@ main {
   }
 }
 @media screen and (max-width: 426px) {
-  .shopping-container {
-    padding: 20px;
-    flex-direction: column;
-  }
-  .shopping-left {
-    width: 350px;
-  }
-  .shopping-right {
-    width: auto;
-  }
-  .shopping-bottom {
-    width: 100%;
-  }
-  .shopping-slider {
-    width: 100%;
-  }
   .header-left img {
     width: 150px;
   }
@@ -1824,5 +1809,25 @@ main {
     top: 0;
     right: 0;
     transform: translate(50%, -20%);
+  }
+  .shopping-container {
+    flex-direction: column;
+  }
+  .shopping-option, .shopping-content {
+    display: none;
+  }
+  .shopping-right {
+    margin-top: 10px;
+  }
+  .shopping-button {
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+  .shopping-return img {
+    width: 15px;
+    height: 15px;
+  }
+  .shopping-return p {
+    font-size: 10px;
   }
 }

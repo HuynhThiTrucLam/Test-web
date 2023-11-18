@@ -240,24 +240,6 @@
   }
 }
 @media screen and (max-width: 426px) {
-  .shopping {
-    &-container {
-      padding: 20px;
-      flex-direction: column;
-    }
-    &-left {
-      width: 350px;
-    }
-    &-right {
-      width: auto;
-    }
-    &-bottom {
-      width: 100%;
-    }
-    &-slider {
-      width: 100%;
-    }
-  }
   .header {
     &-left {
       img {
@@ -281,5 +263,29 @@
       }
     }
   }
+  .shopping {
+    &-container {
+      flex-direction: column;
+    }
+    &-option,
+    &-content {
+      display: none;
+    }
+    &-right {
+      margin-top: 10px;
+    }
+    &-button {
+      flex-direction: column;
+      margin-bottom: 5px;
+    }
+    &-return {
+      img {
+        width: 15px;
+        height: 15px;
+      }
+      p {
+        font-size: 10px;
+      }
+    }
+  }
 }
-//Chưa làm cho slider nè
