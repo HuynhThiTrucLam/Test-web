@@ -1,4 +1,15 @@
 @media screen and (min-width: 990.98px) and (max-width: 1120px) {
+  .shopping {
+    &-left {
+      width: 420px;
+    }
+    &-right {
+      width: auto;
+    }
+    &-bottom {
+      width: 100%;
+    }
+  }
   .header {
     &-left {
       img {
@@ -38,6 +49,20 @@
   }
 }
 @media screen and (max-width: 991px) {
+  .shopping {
+    &-container {
+      padding: 30px;
+    }
+    &-left {
+      width: 350px;
+    }
+    &-right {
+      width: auto;
+    }
+    &-bottom {
+      width: 100%;
+    }
+  }
   .header {
     &-top {
       position: relative;
@@ -215,6 +240,24 @@
   }
 }
 @media screen and (max-width: 426px) {
+  .shopping {
+    &-container {
+      padding: 20px;
+      flex-direction: column;
+    }
+    &-left {
+      width: 350px;
+    }
+    &-right {
+      width: auto;
+    }
+    &-bottom {
+      width: 100%;
+    }
+    &-slider {
+      width: 100%;
+    }
+  }
   .header {
     &-left {
       img {

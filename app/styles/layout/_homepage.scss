@@ -12,7 +12,7 @@ main {
 .slider {
   &-wrap {
     max-width: 1520px;
-    height: 500px;
+    // height: 500px;
     margin: 0 auto;
     position: relative;
   }
@@ -31,14 +31,13 @@ main {
   }
   &-item {
     width: 100%;
-    height: 500px;
-    flex: 1;
+    height: 100%;
+    flex: 0 0 100vw;
 
     img {
-      max-width: unset;
-      height: 500px;
+      width: 100%;
+      height: 100%;
       object-fit: cover;
-      flex: 1;
     }
   }
   &-icon-prev {
