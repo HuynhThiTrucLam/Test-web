@@ -1,6 +1,4 @@
 .header {
-  // margin-top: 80px;
-  //top
   &-top {
     position: fixed;
     top: 0;
@@ -95,7 +93,7 @@
 
   //middle
   &-middle {
-    padding: 0px 16%;
+    padding: 62px 16% 0px;
     &-wrap {
       margin: 20px auto;
       display: flex;
